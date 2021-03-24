@@ -3499,7 +3499,7 @@ window.__require = function e(t, n, o) {
             var c = this.fruitNumber,
               r = n.node.getComponent("fruitData").fruitNumber;
             // 控制合成水果的边界值
-            var border = reverseLevelUp ? 1 : 9;
+            var border = reverseLevelUp ? 2 : 8;
             // 控制合成水果后的升级逻辑
             var fruitVolume = reverseLevelUp ? -1 : 1;
             // 合成水果，水果下标 0-9 (0 为葡萄，9 为半个西瓜，有一些特殊逻辑)
